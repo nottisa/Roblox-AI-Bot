@@ -1,11 +1,11 @@
 //This is the database example Everyline that you type on needs and identifing symbol such as // for comments or ++ for the actual script
 //
-++Definedb[1, 'name']
+--Definedb[1, 'name']
 ++key1:value1
 ++key2:value2
 ++password:wdndaslkx
-++Definedb[2, 'section']
+--Definedb[2, 'section']
 ++bobrealname:freddy
-++Definedb[2, 'section']
+--Definedb[2, 'section']
 ++mydogname:kitkat
-++Definedb[3, 'reason for ending']
+--Definedb[3, 'reason for ending']
