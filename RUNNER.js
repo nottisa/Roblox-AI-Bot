@@ -5,7 +5,7 @@ async function startApp () {
     // Replace the parameter in setCookie() with your .ROBLOSECURITY cookie.
     const currentUser = await noblox.setCookie('')
     console.log(`Logged in as ${currentUser.UserName} [${currentUser.UserID}]`)
-
+    
     // Do everything else, calling functions and the like.
     const groupInfo = await noblox.getGroup(9997719)
     console.log(groupInfo)
